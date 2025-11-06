@@ -9,7 +9,6 @@ on:
 
 jobs:
   publish-x86:
-    if: github.repository == 'sgl-project/sglang'
     environment: "prod"
     strategy:
       matrix:
